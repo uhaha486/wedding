@@ -1,0 +1,116 @@
+/* 사진사이즈 750* 430
+   메인컬러 #ef7a56 
+   글꼴 :나눔고딕, 나눔 명조, Lucida calligraphy italic*/
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul{list-style-type: none;}
+a{text-decoration: none;}
+body{
+    font-family: 'Nanum Gothic','Nanum Myeongjo' sans-serif,serif;
+    text-align: center;
+}
+header{
+    font-family: 'lucida calligraphy',cursive;
+    padding-top: 45px;
+    padding-bottom: 45px;
+ 
+    text-align: center;
+
+}
+header span:first-child{
+    font-size: 22px;
+    display: block;
+    margin-left: 4em;
+  
+}
+header span:last-child{
+    font-size: 55px;
+    color: #ef7a56;
+}
+/*visual 비쥬얼 이미지 */
+#visual{}
+#visual .bxslider{
+    width: 100%;
+}
+#visual .bxslider img{
+    width: 100%;
+}
+.bx-wrapper{border:none !important;}
+#intro .info{
+   padding-bottom: 50px;
+}
+#intro .info h2{margin-bottom: 1em;}
+#intro .info h2 span{
+  color:  #ef7a56;
+
+}
+#intro .address{
+    background: #ef7a56;
+    padding: 45px;
+    font-family: 'Nanum Gothic';
+    font-size: 16px;
+
+    }
+#intro .address span{
+    display: block;
+    margin-bottom: 0.5em;
+    color: #fff;
+}
+
+/*교통편*/
+#map{
+    padding-top: 60px;
+    font-family: 'Nanum Gothic',sans-serif;
+}
+#map h2{
+ font-size: 20px;
+ margin-bottom: 1.4em;
+ border-bottom: 1px solid rgba(0,0,0,0.3);
+ padding-bottom: 0.5em;
+}
+#map .addr li{
+margin-bottom: 1em;
+line-height: 1.5em;
+}
+#map .addr{
+    margin-bottom: 45px;
+}
+#map .addr  img{
+width:18px; 
+vertical-align: middle;
+}
+#map .addr .metro span{
+    color:purple;
+    font-weight: bold;
+}
+/*footer*/
+
+#call img{
+    width: 24px;
+  
+}
+#call a:first-child{
+    margin-right: 1.5em;
+}
+#call a:last-child{
+    margin-left: 1.5em;
+}
+#call{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-family: 'Nanum Gothic',sans-serif;
+}
+#call h2{
+    margin-bottom: 1em;
+}
+
+/*footer*/
+footer{
+    background: #ef7a56;
+    font-family: 'Nanum Gothic',sans-serif;
+    color:#fff;
+    padding: 1.2em;
+    line-height: 1.5em;
+}
+footer a{
+    color:#fff;
+}
